@@ -15,7 +15,9 @@ def calculate_polynomial(n: int, x: int, xi_list: list) -> int:
     展开式的计算结果
 
     """
-
+    result = 1
+    for i in range(n):
+        result=result*(x-xi_list[i])
         
     return result
 
