@@ -2,7 +2,9 @@
 
 def calculate_S(a0, a1, x0, x1, x):
     #输入区
-
+    m = (a0-a1)/(x0-x1)
+    b = a0 - m*x0
+    S = m*x+b
     
     return S
 
