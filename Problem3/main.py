@@ -1,6 +1,8 @@
 def horner_method(coefficients, x):
     #输入区
-
+    result = 0
+    for i in range(len(coefficients)):
+        result = result*x+coefficients[i]
     return result
 
 if __name__ == "__main__":
